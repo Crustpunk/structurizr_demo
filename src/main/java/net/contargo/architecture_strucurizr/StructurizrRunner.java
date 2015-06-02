@@ -34,8 +34,8 @@ public class StructurizrRunner {
         contargoArchitecture.init(space);    
 
         try {
-            transmitWorkspaceData(space);
-            //renderModelasJSON(space);
+            //transmitWorkspaceData(space);
+            renderModelasJSON(space);
         } catch (Exception ex) {
             log.error(new SimpleMessage("Could not transmit Workspace to Stucturizr!"), ex);
         }
